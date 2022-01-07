@@ -2,9 +2,9 @@ package main
 
 import "fmt"
 
-func main() {
-	pase_user()
-}
+// func main() {
+// 	pase_user()
+// }
 
 type User struct {
 	Name string
