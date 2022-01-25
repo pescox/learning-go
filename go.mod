@@ -49,6 +49,7 @@ require (
 	github.com/go-logr/logr v1.2.0 // indirect
 	github.com/gofiber/fiber/v2 v2.24.0
 	github.com/gogo/protobuf v1.3.2 // indirect
+	github.com/gomodule/redigo v1.8.8
 	github.com/google/go-cmp v0.5.6 // indirect
 	github.com/google/gofuzz v1.1.0 // indirect
 	github.com/graphql-go/graphql v0.8.0
@@ -61,16 +62,17 @@ require (
 	github.com/spf13/viper v1.10.1
 	github.com/uber/jaeger-client-go v2.30.0+incompatible
 	golang.org/x/net v0.0.0-20211209124913-491a49abca63 // indirect
+	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
 	golang.org/x/text v0.3.7 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gorm.io/driver/mysql v1.2.3
 	gorm.io/driver/sqlite v1.2.6
 	gorm.io/gorm v1.22.4
-	k8s.io/apimachinery v0.23.1 // indirect
+	k8s.io/apimachinery v0.23.2 // indirect
 	k8s.io/client-go v0.23.1
 	k8s.io/klog/v2 v2.30.0 // indirect
 	k8s.io/utils v0.0.0-20210930125809-cb0fa318a74b // indirect
 	sigs.k8s.io/json v0.0.0-20211020170558-c049b76a60c6 // indirect
-	sigs.k8s.io/structured-merge-diff/v4 v4.1.2 // indirect
+	sigs.k8s.io/structured-merge-diff/v4 v4.2.1 // indirect
 )
