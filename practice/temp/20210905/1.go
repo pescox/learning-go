@@ -2,11 +2,11 @@ package main
 
 import "fmt"
 
-func main() {
+func main1() {
 	// 异或运算
 	// 1, 0^n=n	n^n=0
 	// 2, a^b^c=b^c^a
-	fmt.Println(twoOdd([]int{1,1,1,1,2,2,3,3,3,4,4,5}))
+	fmt.Println(twoOdd([]int{1, 1, 1, 1, 2, 2, 3, 3, 3, 4, 4, 5}))
 }
 
 // 第一题：一个数组中只有一个数值出现了奇数次，其他数值都出现了偶数次，求奇数次值

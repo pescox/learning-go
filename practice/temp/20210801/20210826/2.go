@@ -4,7 +4,7 @@ import "fmt"
 
 // 最长公共子序列
 
-func main() {
+func main2() {
 	fmt.Println(lcs("BDCABA", "ABCBDAB"))
 	fmt.Println(lcs("", "ABCBDAB"))
 	fmt.Println(lcs("BDCABA", ""))

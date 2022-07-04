@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func main2() {
 	fmt.Println(restoreIpAddresses("25525511135"))
 	fmt.Println(restoreIpAddresses("12512511035"))
 	fmt.Println(restoreIpAddresses("11111"))

@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func main2() {
 	arr := []int{1, 2}
 	swap(arr, 0, 1)
 	fmt.Println(arr[0], arr[1])

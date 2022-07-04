@@ -4,7 +4,7 @@ import "fmt"
 
 // abcabcbb
 
-func main() {
+func main5() {
 	fmt.Println(lengthOfLongestSubstring("abcabcbb"))
 	fmt.Println(lengthOfLongestSubstring("adcdabcdefa"))
 }

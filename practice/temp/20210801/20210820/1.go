@@ -5,7 +5,7 @@ import (
 	"os"
 )
 
-func main() {
+func main1() {
 	//go func() {
 	//	defer fmt.Println("A.defer")	// 可以打印
 	//	func(){

@@ -5,7 +5,7 @@ import "fmt"
 // 最长公共子串
 // 例如 13479，123474，则最长公共子串是347
 
-func main() {
+func main1() {
 	fmt.Println(longestCommonSubString("13479", "123474"))
 	fmt.Println(longestCommonSubString("12345", "12345"))
 	fmt.Println(longestCommonSubString("3", "123474"))

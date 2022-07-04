@@ -36,7 +36,7 @@ func finishReq(timeout time.Duration) int {
 
 }
 
-func main() {
+func main1() {
 	timeout := time.Millisecond * 100
 	res := finishReq(timeout)
 	fmt.Println(res)

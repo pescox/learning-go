@@ -2,11 +2,11 @@ package main
 
 import "fmt"
 
-func main() {
-	fmt.Println(isDeformation("123","132"))
-	fmt.Println(isDeformation("1234","132"))
-	fmt.Println(isDeformation("adsf","afsd"))
-	fmt.Println(isDeformation("adsf",""))
+func main1() {
+	fmt.Println(isDeformation("123", "132"))
+	fmt.Println(isDeformation("1234", "132"))
+	fmt.Println(isDeformation("adsf", "afsd"))
+	fmt.Println(isDeformation("adsf", ""))
 }
 
 func isDeformation(a, b string) bool {

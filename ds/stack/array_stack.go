@@ -52,7 +52,7 @@ func (stack *ArrayStack) IsEmpty() bool {
 	return stack.size == 0
 }
 
-func main() {
+func main1() {
 	arrayStack := new(ArrayStack)
 	arrayStack.Put(1001)
 	arrayStack.Put(1002)

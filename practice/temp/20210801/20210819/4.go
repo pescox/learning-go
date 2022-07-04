@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func main4() {
 	var data = []int{1, 2, 3}
 	for _, d := range data {
 		d *= d

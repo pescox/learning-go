@@ -5,7 +5,7 @@ import (
 	"math/rand"
 )
 
-func main() {
+func main1() {
 	// 随机返回0和1
 	// 第一种使用rand.Intn(2)
 	for i := 0; i < 10; i++ {

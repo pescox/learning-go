@@ -14,7 +14,7 @@ type ListNode struct {
 	Next *ListNode
 }
 
-func main() {
+func main4() {
 	l1 := &ListNode{
 		Next: &ListNode{
 			Next: &ListNode{

@@ -1,19 +1,15 @@
 package main
 
-import (
-	"fmt"
-)
-
-func main() {
-	// >>1 除以2; >>2 除以2*2，也就是4
-	// <<1 乘以2
-	fmt.Println(13 << 2)
-	fmt.Println(4 ^ 6)
-	//arr := StrArr([]string{"medit", "dingpeng", "jay", "chou"})
-	//sort.Sort(arr)
-	//sort.Ints([]int{5, 4, 7, 3, 6})
-	//fmt.Println(arr)
-}
+// func main() {
+// 	// >>1 除以2; >>2 除以2*2，也就是4
+// 	// <<1 乘以2
+// 	fmt.Println(13 << 2)
+// 	fmt.Println(4 ^ 6)
+// 	//arr := StrArr([]string{"medit", "dingpeng", "jay", "chou"})
+// 	//sort.Sort(arr)
+// 	//sort.Ints([]int{5, 4, 7, 3, 6})
+// 	//fmt.Println(arr)
+// }
 
 type StrArr []string
 
